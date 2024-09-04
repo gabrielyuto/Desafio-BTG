@@ -2,6 +2,7 @@ package tech.buildrun.btgpactual.orderms.entity;
 
 import java.math.BigDecimal;
 
+import lombok.AllArgsConstructor;
 import org.springframework.data.mongodb.core.mapping.Field;
 import org.springframework.data.mongodb.core.mapping.FieldType;
 
@@ -11,6 +12,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
+@AllArgsConstructor
 @NoArgsConstructor
 public class OrderItem {
   private String product;
